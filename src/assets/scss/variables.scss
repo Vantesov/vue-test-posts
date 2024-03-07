@@ -1,0 +1,25 @@
+//block width
+@mixin block_width{
+  width: calc((100vw - (25px * 2 + 20px * 3))/4);
+
+  @media screen and (max-width: 1700px){
+    width: calc((100vw  - (25px * 2 + 20px * 2))/3);
+  }
+  @media screen and (max-width: 1200px){
+    width: calc((100vw - (25px * 2 + 20px))/2);
+  }
+  @media screen and (max-width: 768px){
+    width: calc(100vw - (25px * 2));
+  }
+}
+
+
+
+//colors
+$bg_gray: #f2f2f2;
+$white: #fff;
+$hcolor: #333;
+$blue: #4285F4;
+$gray: rgba(0, 0, 0, 0.1);
+$medium-gray: rgba(0, 0, 0, 0.5);
+$black: rgba(0, 0, 0, 1);
