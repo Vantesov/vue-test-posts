@@ -1,6 +1,6 @@
 # vue-test-posts
 
-This template should help get you started developing with Vue 3 in Vite.
+You can see this project on GitHub pages here https://vantesov.github.io/vue-test-posts/
 
 ## Recommended IDE Setup
 
